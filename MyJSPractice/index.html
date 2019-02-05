@@ -23,8 +23,9 @@
 
   <script>
     'use strict';
-    document.getElementById('target').addEventListener('click', function() {
-      document.getElementById('target').classList.toggle('circle');
+    const target = document.getElementById('target');
+    target.addEventListener('click', function() {
+      target.classList.toggle('circle');
     });
   </script>
 </body>
